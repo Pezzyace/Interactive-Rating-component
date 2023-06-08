@@ -1,0 +1,133 @@
+p{
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+}
+body{
+  background-color: hsl(216, 12%, 8%);
+  margin: 0;
+}
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px 30px 0px;
+}
+.rating-container{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(212, 31%, 10%);
+  width: 310px;
+  padding: 20px;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+.rates{
+  display: flex;
+  flex-direction: row;
+}
+.stared{
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question{
+  color: white;
+  font-size: 22px;
+  margin: 18px 0px 10px 0px;
+  font-weight: 700;
+}
+.guide{
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  margin: 10px 0px 40px 0px;
+}
+.rates{
+  margin: 0px 0px 20px 0px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+.rate{
+  border-style: none;
+  padding: 14px 18px;
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  
+}
+.rate:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: hwb(0 100% 0%);
+  cursor: pointer;
+}
+.submit{
+  border-style: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  padding: 15px 0px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}
+.message-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  padding: 20px;
+  background-color:  hsl(212, 31%, 10%);
+  border-radius: 15px;
+}
+.pic{
+  margin: 10px 0px 30px 0px;
+}
+.rated{
+  padding: 5px 15px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  font-size: 13px;
+  margin-bottom: 24px;
+  color: hsl(25, 97%, 53%);
+}
+.thanks{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.comment{
+  text-align: center;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.rate-again-btn{
+  border-style: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  width: 100%;
+  padding: 15px 0px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 375px){
+  p{
+    margin: 0;
+  }
+  
+}
